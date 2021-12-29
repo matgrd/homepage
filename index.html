@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateusz Grdeń - Moja pierwsza strona</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/tableContainer.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body js-body">
+    <header>
+      <section class="section">
+        <h1 class="section__header js-header">Mateusz Grdeń</h1>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link" href="#o-mnie">Coś o mnie</a>
+            </li>
+            <li>
+              <a class="navigation__link" href="#co-dalej">Co dalej?</a>
+            </li>
+            <li>
+              <a class="navigation__link" href="#flimy">Ulubiona saga</a>
+            </li>
+            <li>
+              <a class="navigation__link" href="#interakcja"
+                >Przykładowa interakcja</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section class="section">
+        <img
+          class="section__image"
+          src="images/cup-of-coffee.jpg"
+          alt="Kubek kawy"
+        />
+      </section>
+      <section class="section" id="o-mnie">
+        <h2 class="section__header js-header">Coś o mnie</h2>
+        <p class="section__paragraph">
+          Witam wszystkich!<br />
+          Obecnie pracuję jako
+          <strong>grafik komputerowy</strong>. Jakiś czas temu miałem okazję
+          współpracować z osobami zajmującymi się <i>Frontendem</i> i na tyle
+          zainteresowała mnie ich praca, że sam postanowiłem podziałać nieco w
+          tym kierunku.
+        </p>
+      </section>
+      <section class="section" id="co-dalej">
+        <h2 class="section__header js-header">Co dalej?</h2>
+        <p class="section__paragraph">
+          <b>Będę dalej przeć na przód z kursem</b>, na tyle na ile pozwala mi
+          czas i dalej zobaczymy co to będzie, ale nie ukrywam, że jestem
+          <em>bardzo pozytywnie nastawiony</em> na dalsze rozwijanie się w
+          kierunku <i>Frontendu</i>.
+        </p>
+      </section>
+      <section class="section" id="flimy">
+        <div class="table__container">
+          <table class="table">
+            <caption class="table__caption">
+              Główne filmy kinowe ze świata Gwiezdnych Wojen
+            </caption>
+            <thead>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">
+                  Nazwa
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Część
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Rok produkcji
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Trylogia
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Czas trwania
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Mroczne widmo
+                </th>
+                <td class="table__cell">I</td>
+                <td class="table__cell">1999</td>
+                <td class="table__cell">prequeli</td>
+                <td class="table__cell">131 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Atak klonów
+                </th>
+                <td class="table__cell">II</td>
+                <td class="table__cell">2002</td>
+                <td class="table__cell">prequeli</td>
+                <td class="table__cell">143 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Zemsta Sithów
+                </th>
+                <td class="table__cell">III</td>
+                <td class="table__cell">2005</td>
+                <td class="table__cell">prequeli</td>
+                <td class="table__cell">135 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Nowa nadzieja
+                </th>
+                <td class="table__cell">IV</td>
+                <td class="table__cell">1977</td>
+                <td class="table__cell">oryginalna</td>
+                <td class="table__cell">121 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Imperium kontratakuje
+                </th>
+                <td class="table__cell">V</td>
+                <td class="table__cell">1980</td>
+                <td class="table__cell">oryginalna</td>
+                <td class="table__cell">124 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Powrót Jedi
+                </th>
+                <td class="table__cell">VI</td>
+                <td class="table__cell">1983</td>
+                <td class="table__cell">oryginalna</td>
+                <td class="table__cell">133 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Przebudzenie Mocy
+                </th>
+                <td class="table__cell">VII</td>
+                <td class="table__cell">2015</td>
+                <td class="table__cell">sequeli</td>
+                <td class="table__cell">135 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Ostatni Jedi
+                </th>
+                <td class="table__cell">VIII</td>
+                <td class="table__cell">2017</td>
+                <td class="table__cell">sequeli</td>
+                <td class="table__cell">152 minut</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Skywalker. Odrodzenie
+                </th>
+                <td class="table__cell">IX</td>
+                <td class="table__cell">2019</td>
+                <td class="table__cell">sequeli</td>
+                <td class="table__cell">142 minut</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="table__row">
+                <th
+                  class="table__cell table__cell--header"
+                  scope="row"
+                  colspan="4"
+                >
+                  Całkowity czas trwania powyższych części:
+                </th>
+                <td class="table__cell">1216 minut</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+      <section class="section" id="interakcja">
+        <h2 class="section__header js-header">
+          Przykładowa interakcja w JS-ie
+        </h2>
+        <button class="button js-button">
+          <span class="button__text js-themeName">Jasny motyw</span>
+        </button>
+      </section>
+    </main>
+    <footer class="footer">&copy; 2021 Mateusz Grdeń</footer>
+  </body>
+</html>

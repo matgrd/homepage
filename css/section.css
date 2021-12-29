@@ -1,0 +1,24 @@
+.section {
+    padding: 20px 0px 0px
+}
+
+.section__image {
+    max-width: 300px;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section__header {
+    background-color: #232323;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.section__header--light {
+    background-color: #e1e1e1;
+}
+
+.section__paragraph {
+    margin: 16px;
+}

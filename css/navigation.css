@@ -1,0 +1,33 @@
+.navigation {
+    margin: auto;
+    background-color: #053600;
+    box-shadow: 2px 2px 5px 1px #00000080;
+    max-width: 90%;
+}
+
+.navigation__list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.navigation__link {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: #918989;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: #ff0000;
+    border-bottom: 1px solid;
+    outline: none;
+}
