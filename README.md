@@ -17,7 +17,7 @@ This is my simple personal homepage.
 The page contains four sections:
 
 - something about me
-- what's next
+- next steps
 - favorite movie saga
 - sample interaction in JavaScript
 
