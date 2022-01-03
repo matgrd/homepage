@@ -11,11 +11,11 @@
       : "Jasny motyw";
   };
 
-  const changeThemeHeaders = () => {
-    const headers = document.querySelectorAll(".js-header");
+  const changeThemeheader = () => {
+    const header = document.querySelectorAll(".js-header");
 
-    headers.forEach((headers) =>
-      headers.classList.toggle("section__header--light")
+    header.forEach((header) =>
+      header.classList.toggle("section__header--light")
     );
   };
 
@@ -24,7 +24,7 @@
 
     body.classList.toggle("body--light");
 
-    changeThemeHeaders();
+    changeThemeheader();
     updateThemeText(body);
   };
 
@@ -38,20 +38,3 @@
 
   init();
 }
-
-// console.log("Witam wszystkich razem i każdego z osobna!");
-
-// let button = document.querySelector(".js-button");
-// let body = document.querySelector(".js-body");
-// let allHeaders = document.querySelectorAll(".js-header");
-// let themeName = document.querySelector(".js-themeName");
-
-// button.addEventListener("click", () => {
-//   body.classList.toggle("body--light");
-//   allHeaders.forEach((allHeaders) =>
-//     allHeaders.classList.toggle("section__header--light")
-//   );
-//   themeName.innerText = body.classList.contains("body--light")
-//     ? "Ciemny"
-//     : "Jasny";
-// });
